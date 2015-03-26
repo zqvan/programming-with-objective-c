@@ -321,7 +321,7 @@ NSArray 是用来表示对象的有序集合。对集合中内容唯一的要求
 
 为了满足有序，每一个元素的存储都是从 0 开始记序，就像图 6-1 这样。
 
-![图6-1 Objective-C 对象数组](../blob/images/orderedarrayofobjects.png)
+![图6-1 Objective-C 对象数组](../images/orderedarrayofobjects.png)
 
 ### 创建数组
 
