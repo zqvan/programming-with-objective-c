@@ -323,7 +323,7 @@ NSArray 是用来表示对象的有序集合。对集合中内容唯一的要求
 
 ![图6-1 Objective-C 对象数组](images/orderedarrayofobjects.png)
 
-### 创建数组
+#### 创建数组
 
 就像之前章节里写的赋值类那样，你可以通过分配空间并初始化，使用工厂类方法或纯语法方式来创建数组。
 
@@ -392,7 +392,7 @@ arrayWithObjects 和 initWithObjects: 这两种方法都采用零终止（nil-te
 
 如果你一定要使用 nil 值，你可以用 NSNull 类，详情请查看[Represent nil with NSNull](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW34)
 
-### 查找数组对象
+#### 查找数组对象
 
 一旦你创建了数组，你可以查询有关的信息，例如对象个数或查找特定的元素：
 
@@ -433,7 +433,7 @@ arrayWithObjects 和 initWithObjects: 这两种方法都采用零终止（nil-te
 ```
 
 
-### 给数组对象排序
+#### 给数组对象排序
 
 NSArray 类提供了很多种排序的方法。因为 NSArray 是不可变的，所以所有的方法都会返回一个有序数组。
 
@@ -447,7 +447,7 @@ NSArray 类提供了很多种排序的方法。因为 NSArray 是不可变的，
 ```
 
 
-### 可变性
+#### 可变性
 
 尽管 NSArray 类是不可变的，这并不会影响集合中的对象。如果你想添加一个可变的字符串，可以这样做：
 
@@ -552,7 +552,7 @@ NSDictionary 存储了对象和它们的关键字，而不是单单只保存了�
 >如果你的代码包含键值，你必须用字符串关键字作为字典对象，正如这里提到的： [Key-Value Coding Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/KeyValueCoding/Articles/KeyValueCoding.html#//apple_ref/doc/uid/10000107i)
 
 
-### 字典的创建
+#### 字典的创建
 
 你可以用空间分配并初始化或工厂方法创建字典：
 
@@ -586,7 +586,7 @@ Objective-C 也可以使用纯语法创建字典：
 
 注意在字典语法中，关键字需要先确定，然后再确定对象，而且关键字不能以 nil 结束。
 
-### 字典的查询
+#### 字典的查询
 
 一旦你创建了字典，你可以从中给对象指定一个关键字：
 
@@ -606,7 +606,7 @@ objectForKey：方法还有另一种使用方法也可以完成这个功能：
 
 ```
 
-### 可变性
+#### 可变性
 
 如果要在创建 dictionary 后增删对象，你需要使用 NSMutableDictionary 子类：
 
